@@ -499,7 +499,7 @@ Make any necessary adjustments before continuing.
         text: "A headset can be useful when you are on Teams calls or you are taking calls through your computer. Do you use a headset?",
         skipTip: true,
         followUp: { text: "Do you require a headset?", field: "newHeadset" },
-      yesFeedback: "Good. we hop you find your headset useful."
+      yesFeedback: "Good. we hope you find your headset useful."
   },
         /*✅✏️ Q16 */
       {
@@ -611,7 +611,7 @@ yesFeedback: "Good to hear!"
        /*✅✏️ Q27 */
       {
         section: "Section 8: Final Checks",
-        text: "Are there any further problems with your worspace or DSE equipment that you haven't already told us about?",
+        text: "Are there any further problems with your workspace or DSE equipment that you haven't already told us about?",
         freeText: true
   },
        /*✅✏️ Q28 */
@@ -910,7 +910,7 @@ appendMessage(feedback, 'bot');
 
   async function askForIssue(q) {
   await showTyping();
-  appendMessage("Please describe the problem so we can follow up:", 'bot');
+  appendMessage("If you have a problem, please describe the issue so we can follow up:", 'bot');
 
   const textarea = document.createElement('textarea');
   textarea.placeholder = "Type here...";
@@ -1367,7 +1367,7 @@ summaryHeader.innerHTML = `
   <div class="summary-left">
     <strong>Your assessment is complete</strong><br>
     <p>
-      Download your report, which consists of a zip file with two documents inside, a PDF for your own records and a CSV file to be sent to your line manager.
+      Download your report, which consists of a zip file with two documents inside, ready to be sent to your line manager.
     </p>
   </div>
 
